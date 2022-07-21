@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    td{
+        text-align: center;
+    }
+</style>
 <body>
     <table border="1" width="70%">
+        <caption>Table Example</caption>
         <thead>
 <tr>
     <th rowspan="2">Day</th>
@@ -21,6 +27,36 @@
 </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>Tuesday</td>
+                <td>07.00 am.</td>
+                <td>11.00 am.</td>
+                <td rowspan="2">
+                    Computer Fundamentals
+                    <ul>
+                        <li>Hardware</li>
+                        <li>OS</li>
+                        <li>Storage</li>
+                        <li>Data</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" align="center">Thursday</td>
+                <td>07.00 am.</td>
+                <td>07.50 am.</td>
+            </tr>
+            <tr>
+                <td>07.00 am.</td>
+                <td>07.50 am.</td>
+                <td rowspan="2" align="center">HTML <br> CSS</td>
+            </tr>
+            <tr>
+                <td>07.00 am.</td>
+                <td>07.50 am.</td>
+            </tr>
+
+
 
         </tbody>
     </table>
